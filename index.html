@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+
+    <!-- Title Page-->
+    <title>Kenzie Doggie Daycare</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+    <link href="https://fonts.googleapis.com/css2?family=Gorditas&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Doggie Day Care!</h1>
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/295/113/small/bam1_2faq_180723.jpg">
+    <h3>Tell us about your Dog:</h3>
+    <form>
+      <label for="name_input">Name</label>
+      <input
+        id="name_input"
+        type="text"
+        placeholder="What's your dog's name?"
+        required
+      />
+      <label for="breed_input">Breed</label>
+      <input
+        id="breed_input"
+        type="text"
+        placeholder="What breed are they?"
+        required
+      />
+      <label>Age</label>
+      <input
+        id="age_input"
+        type="number"
+        placeholder="How old are they?"
+        required
+      />
+
+      <div class="checkbox-section">
+        <input id="treats_input" type="checkbox" />
+        <label for="treats_input">Likes Treats</label>
+      </div>
+
+      <button id="submit_button">Take care of my dog!</button>
+    </form>
+    <h2>Dogs we currently have:</h2>
+    <ul id="dog_list"></ul>
+    <script src="code.js"></script>
+    <footer>
+      <small>Images &#169 <a href = "vecteezy.com">vecteezy</a> & <a href="Pngtree.com">Pngtree</a></small>
+    </footer>
+  </body>
+</html>
