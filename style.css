@@ -1,0 +1,68 @@
+form > input,
+form > label {
+  display: block;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+body {
+  text-align: center;
+  background-image: url("https://png.pngtree.com/png-vector/20201216/ourmid/pngtree-red-3d-heart-png-image_2569975.jpg");
+  font-family: gorditas;
+}
+
+form {
+  text-align: left;
+  width: 300px;
+  margin: auto;
+  font-size: 30px;
+  border: 5px solid black;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 20%;
+}
+
+.checkbox-section {
+  text-align: center;
+}
+
+form button {
+  display: block;
+  margin: auto;
+}
+h1 {
+  font-size: 60px;
+}
+
+h2,h3 {
+  font-size: 40px;
+}
+
+ li {
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 30px;
+} 
+
+ul {
+  font-size: 40px;
+}
+
+.button {
+  margin-left: 10px;
+}
+
+img {
+  border: 5px solid grey;
+}
+
+.checkbox-section {
+  font-size: 25px;
+}
+
+button {
+  font-size: 20px;
+}
